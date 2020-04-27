@@ -1,0 +1,34 @@
+{
+  "name": "nodeJsSkeleton",
+  "version": "1.0.0",
+  "description": "nodeJS Skeleton",
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/csalazart33/nodewpskeleton.git",
+    "private": true
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --watch --config webpack.config.js",
+    "build": "./node_modules/.bin/webpack --optimize-minimize  --config webpack.prod.js",
+	"exec": "node ./dist/app.js",
+    "app": "npm run build && node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "CAST <csalazart33@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "nodemon": "^1.19.4",
+    "nodemon-webpack-plugin": "^4.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
