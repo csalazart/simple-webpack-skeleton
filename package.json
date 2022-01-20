@@ -11,7 +11,7 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack --watch --config webpack.config.js",
     "build": "./node_modules/.bin/webpack --optimize-minimize  --config webpack.prod.js",
-	"exec": "node ./dist/app.js",
+    "exec": "node ./dist/app.js",
     "app": "npm run build && node ./dist/app.js"
   },
   "keywords": [],
