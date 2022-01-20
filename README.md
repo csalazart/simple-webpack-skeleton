@@ -6,10 +6,10 @@
 
 You can modified the skeleton and adapting tyo you own project, or use like is it.
 
-This Version is for a node 10.16.X but view other branchs
+This Version is for a node 14.18.X but view other branchs and Webpack 5
 
 ## Requeriments
-   - Node: 10.16.X
+   - Node: 14.18.X
    - 
 ## Scripts
   - start: init compiled and watch with webpack and dev Mode
@@ -18,9 +18,13 @@ This Version is for a node 10.16.X but view other branchs
   - app: its a compiler and execute the app build & exec 
 
 ## Dev Dependencies
-  - babel: ^7.6.4
-  - nodemon: ^1.19.4
-  - webpack: ^4.41.2
+  - babel: ^7.16.10
+  - nodemon: ^2.0.15
+  - webpack: ^5.66.0
 
 ## Include optional  
-  - express: ^4.16.4
+  - express: ^4.17.2
+
+## Branch
+  - [node V10.16](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-10.16)
+  - [Node V14.18](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-14.18)
