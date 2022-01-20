@@ -24,3 +24,7 @@ This Version is for a node 10.16.X but view other branchs
 
 ## Include optional  
   - express: ^4.16.4
+
+## Branch
+  - [node V10.16](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-10.16)
+  - [Node V14.18](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-14.18)
