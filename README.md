@@ -1,5 +1,9 @@
 # simple-webpack-skeleton
 
+## Branch
+  - [Node V10.16](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-10.16)
+  - [Node V14.18](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-14.18)
+
 # Implments & Requirements
 
  Just Donwload or Clone repo, Replace by you own repogit and install npm i.
@@ -10,7 +14,7 @@ This Version is for a node 14.18.X but view other branchs and Webpack 5
 
 ## Requeriments
    - Node: 14.18.X
-   - 
+
 ## Scripts
   - start: init compiled and watch with webpack and dev Mode
   - build: compile all files an deploy to production enviroment
@@ -24,7 +28,3 @@ This Version is for a node 14.18.X but view other branchs and Webpack 5
 
 ## Include optional  
   - express: ^4.17.2
-
-## Branch
-  - [node V10.16](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-10.16)
-  - [Node V14.18](https://github.com/csalazart/simple-webpack-skeleton/tree/vnode-14.18)
